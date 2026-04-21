@@ -18,6 +18,11 @@ VC Startup Analyzer is an AI-powered tool that:
 5. 🔒 Privacy-friendly
 
 📸 Demo
+
+![App Screenshot](assets/Demo-Kiwi-Money-Screenshot.png)
+![App Screenshot](assets/Demo-Stripe-Screenshot.png)
+![App Screenshot](assets/Demo-GameRamp-Screenshot.png)
+
 1. 🔹 Input - python vc_summary.py https://www.linear.app/
 2. 🔹 Output
 {
