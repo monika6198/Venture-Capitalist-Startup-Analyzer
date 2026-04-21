@@ -5,22 +5,21 @@ An AI-powered tool that analyzes startup websites and generates structured, VC-s
 
 VC Startup Analyzer is an AI-powered tool that:
 
-Takes a startup website URL
-Extracts meaningful content
-Uses a local LLM (via Ollama)
-Generates structured VC-style insights
+1. Takes a startup website URL
+2. Extracts meaningful content
+3. Uses a local LLM (via Ollama)
+4. Generates structured VC-style insights
 
 ✨ Features
-🔗 URL → Instant analysis
-🧠 AI-powered business understanding
-📊 Structured JSON output
-⚡ Runs locally (no API cost)
-🔒 Privacy-friendly
+1. 🔗 URL → Instant analysis
+2. 🧠 AI-powered business understanding
+3. 📊 Structured JSON output
+4. ⚡ Runs locally (no API cost)
+5. 🔒 Privacy-friendly
 
 📸 Demo
-🔹 Input
-python vc_summary.py https://www.linear.app/
-🔹 Output
+1. 🔹 Input - python vc_summary.py https://www.linear.app/
+2. 🔹 Output
 {
   "one_liner": "AI-powered project management tool for modern teams",
   "problem": "Teams struggle with slow and inefficient workflows",
@@ -44,11 +43,11 @@ Ollama (Local LLM)
 Structured VC Summary (JSON)
 
 ⚙️ Tech Stack
-🐍 Python
-🌐 Requests
-🧹 BeautifulSoup
-🧠 Ollama (LLM runtime)
-🎨 Streamlit (optional UI)
+1. 🐍 Python
+2. 🌐 Requests
+3. 🧹 BeautifulSoup
+4. 🧠 Ollama (LLM runtime)
+5. 🎨 Streamlit (optional UI)
 
 📁 Project Structure
 .
@@ -58,57 +57,38 @@ Structured VC Summary (JSON)
 └── README.md
 
 🛠️ Setup
-1. Clone the repo
-git clone <your-repo-url>
+1. Clone the repo - git clone <your-repo-url>
 cd <project-folder>
 2. Create virtual environment
-python3 -m venv venv
-source venv/bin/activate
-3. Install dependencies
-pip install requests beautifulsoup4 lxml
-4. Install Ollama
-
-👉 https://ollama.com/
-
-5. Pull model
-ollama run phi3
-
-(Wait for download → press Ctrl + C)
-
-6. Start Ollama server
-ollama serve
+   2.1. python3 -m venv venv
+   2.2. source venv/bin/activate
+3. Install dependencies - pip install requests beautifulsoup4 lxml
+4. Install Ollama - 👉 https://ollama.com/
+5. Pull model - ollama run phi3
+6. Start Ollama server - ollama serve
 
 ▶️ Usage
-Run CLI version
-python vc_summary.py <url>
+Run CLI version - python vc_summary.py <url>
 
 Example:
 
-python vc_summary.py https://www.perplexity.ai/
-Run Web App (optional)
-pip install streamlit
-streamlit run app.py
+1. python vc_summary.py https://www.perplexity.ai/
+2. Run Web App (optional)
+3. pip install streamlit
+4. streamlit run app.py
 
 ⚠️ Limitations
-❌ JS-heavy sites (e.g., LinkedIn, LeetCode)
-❌ Login-required pages
-⚠️ Output quality depends on model (phi3 vs llama3)
-🚀 Future Improvements
-📊 Investment scoring
-🧠 Better prompt engineering
-🌐 Support dynamic websites (Selenium/Playwright)
-📈 Competitor analysis
-🎨 Enhanced UI dashboard
-💡 How It Works
-URL → HTML → Clean Text → LLM → VC Insights
+1. ❌ JS-heavy sites (e.g., LinkedIn, LeetCode)
+2. ❌ Login-required pages
+3. ⚠️ Output quality depends on model (phi3 vs llama3)
+4. 🚀 Future Improvements
+5. 📊 Investment scoring
+6. 🧠 Better prompt engineering
+7. 🌐 Support dynamic websites (Selenium/Playwright)
+8. 📈 Competitor analysis
+9. 🎨 Enhanced UI dashboard
+10. 💡 How It Works - URL → HTML → Clean Text → LLM → VC Insights
 
-🧑‍💻 Author
-
-Built as a mini AI product demonstrating:
-
-LLM integration
-Backend + AI pipeline
-Real-world system design
 ⭐ If you like this project
 
 Give it a star ⭐ — helps a lot!
